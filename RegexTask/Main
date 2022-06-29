@@ -1,0 +1,29 @@
+fun main() {
+    val numOfAdresses = readLine()!!.toLong()
+    val listOfLogins: MutableList<String> = mutableListOf()
+    val listOfDomains: MutableList<String> = mutableListOf()
+    var tmpSplit: List<String>
+
+    for (i in 0 until numOfAdresses) {
+        tmpSplit = readLine()!!.split("@")
+        listOfLogins.add(tmpSplit.first()
+            .split("-")
+            .first()
+            .replace(Regex("[.]"),""))
+
+        listOfDomains.add(tmpSplit.last())
+    }
+    var clk = 0
+    for (i in 0 until listOfLogins.size) {
+        for (j in i+1 until listOfLogins.size) {
+            if (listOfLogins[i] == listOfLogins[j])  {
+
+                if (listOfDomains[j].replace(Regex(listOfDomains[j].split(".").last()), "") ==
+                    listOfDomains[i].replace(Regex(listOfDomains[i].split(".").last()), ""))  {
+                    clk++
+                }
+            }
+        }
+    }
+    println(numOfAdresses-clk)
+}
