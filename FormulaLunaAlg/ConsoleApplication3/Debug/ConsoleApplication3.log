@@ -1,0 +1,21 @@
+﻿Построение начато 01.07.2022 10:57:50.
+     1>Проект "C:\Users\N.Sheverdyaev\Documents\Visual Studio 2012\Projects\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ConsoleApplication3.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication3.cpp
+         ConsoleApplication3.cpp
+     1>c:\users\n.sheverdyaev\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\consoleapplication3.cpp(21): error C3861: repeatCin: идентификатор не найден
+     1>c:\users\n.sheverdyaev\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\consoleapplication3.cpp(22): error C3861: validate: идентификатор не найден
+     1>c:\users\n.sheverdyaev\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\consoleapplication3.cpp(25): error C2059: синтаксическая ошибка: while
+     1>c:\users\n.sheverdyaev\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\consoleapplication3.cpp(25): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>c:\users\n.sheverdyaev\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\consoleapplication3.cpp(25): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>c:\users\n.sheverdyaev\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\consoleapplication3.cpp(27): error C2059: синтаксическая ошибка: return
+     1>c:\users\n.sheverdyaev\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\consoleapplication3.cpp(28): error C2059: синтаксическая ошибка: }
+     1>c:\users\n.sheverdyaev\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\consoleapplication3.cpp(28): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>c:\users\n.sheverdyaev\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\consoleapplication3.cpp(30): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>c:\users\n.sheverdyaev\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\consoleapplication3.cpp(30): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>c:\users\n.sheverdyaev\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\consoleapplication3.cpp(57): error C3861: douleDigitValue: идентификатор не найден
+     1>Построение проекта "C:\Users\N.Sheverdyaev\Documents\Visual Studio 2012\Projects\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:00.84
